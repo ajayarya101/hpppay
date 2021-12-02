@@ -1,0 +1,110 @@
+.content_area {
+    width: 100%;
+    min-height: 525px;
+    height: auto;
+    background: #f2f5f7;
+    padding: 30px 0;
+}
+.main_heading {
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 20px;
+    position: relative;
+    background-color: #f3f3f3;
+    padding: 20px 15px;
+    border-radius: 1px;
+    /* border: 1px solid #dcdcdc; */
+}
+.instant_enrollment_wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-size: contain;
+}
+.enrollment_block {
+    box-sizing: border-box;
+}
+.enrollment_block > div {
+    padding: 0 15px;
+    width: 100%;
+    box-sizing: border-box !important;    
+    flex: auto !important;
+}
+/* .enrollment_block > div + div {
+    margin-left: 15px;
+} */
+.form_label {
+    width: 100%;
+}
+.form_control {
+    width: 100%;
+    padding: 6px 13px;
+    height: 40px;
+    border: 1px solid #e6e7e8;
+    background: none;
+}
+.form_select select {
+    appearance: none;
+}
+.form_select {
+    position: relative;
+}
+.form_select:after {
+    position: absolute;
+    content: '';
+    right: 15px;
+    top: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: transparent #000 #000 transparent;
+    width: 10px;
+    height: 10px;
+    transform: rotate(45deg);
+    pointer-events: none;
+}
+.form_label sup {
+    font-size: 14px;
+    color: #f00;
+    top: -5px;
+    font-weight: 600;
+}
+.submit_btn {
+    background-color: #007ad9;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: 1px solid #007ad9;
+    cursor: pointer;
+    transition: all .15s ease-in-out;
+    padding: 5px 22px;
+}
+
+.submit_btn:hover {
+    background-color:transparent;
+    color: #007ad9;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: 1px solid #007ad9;
+    cursor: pointer;
+    transition: all .15s ease-in-out;
+    padding: 5px 22px;
+}
+.mat-datepicker-toggle {
+    background: #040e47;
+    color: #fff;
+    margin-top: -1px;
+}
+@media screen and (max-width:768px) {
+    
+    .enrollment_block {
+        flex-wrap: wrap;
+    }
+    .enrollment_block  > div {
+        margin-bottom: 20px;
+        margin-left: 0  !important;
+    }
+    .mat-checkbox-layout .mat-checkbox-label {
+        line-height: 1;
+        white-space: pre-wrap;
+    }
+}

@@ -1,1 +1,36 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body {
+    margin: 0; 
+    /* font-family: 'Lato', sans-serif; */
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+ }
+ .bg-grey {
+    background: #eaeaea;
+}
+
+.bg-light-grey {
+    background: #fafbff;
+}
+
+.btn_primary {
+    text-align: center;
+    display: block;
+    width: 100%;
+    background: #000131;
+    color: #fff;
+    padding: 10px;
+}
+.btn_primary:hover {
+    color: #fff;
+}
+.primary_link {
+    color: #02448e;
+}
+.br-14 {
+    border-radius: 14px;
+}
+.border-1 {
+    border: 1px solid #000;
+}
