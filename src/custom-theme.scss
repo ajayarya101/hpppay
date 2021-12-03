@@ -27,7 +27,9 @@ $hpclNew-theme: mat.define-light-theme((
     warn: $hpclNew-warn,
   )
 ));
-
+.mat-checkbox-label { // NEW
+  white-space: initial; // NEW
+} // NEW
 // Include theme styles for core and each component used in your app.
 // Alternatively, you can import and @include the theme mixins for each component
 // that you are using.

@@ -12,6 +12,11 @@ import { CustomerRoutingModule } from './customer-routing.module';
 import { HeaderComponent } from './header/header.component';
 import { LoginComponent } from './login/login.component';
 import { RegistrationComponent } from './registration/registration.component';
+import { HomepageComponent } from './homepage/homepage.component';
+import { FaqComponent } from './faq/faq.component';
+import { FooterComponent } from './footer/footer.component';
+import { ProgramDetailComponent } from './program-detail/program-detail.component';
+import { RechargeAccountComponent } from './recharge-account/recharge-account.component';
 
 
 @NgModule({
@@ -19,6 +24,11 @@ import { RegistrationComponent } from './registration/registration.component';
     HeaderComponent,
     LoginComponent,
     RegistrationComponent,
+    HomepageComponent,
+    FaqComponent,
+    FooterComponent,
+    ProgramDetailComponent,
+    RechargeAccountComponent,
   ],
   imports: [
     CommonModule,

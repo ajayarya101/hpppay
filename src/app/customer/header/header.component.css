@@ -6,6 +6,9 @@
     background: linear-gradient(to bottom,  #000032 0%,#113885 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000032', endColorstr='#113885',GradientType=0 ); /* IE6-9 */
 }
+.header_logo {
+    max-width: 140px;
+}
 .main_navs li a {
     color: #fff;
     padding: 10px 20px !important;
@@ -28,5 +31,10 @@
         top: 100%;
         background: #030b42;
         z-index: 2;
+    }
+}
+@media screen and (max-width:767px) {
+    .header_logo {
+        max-width: 100px;
     }
 }

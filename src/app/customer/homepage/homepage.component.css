@@ -1,0 +1,92 @@
+.signUp_btn {
+    display: inline-block;
+    background: #ed1c24;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    width: 200px;
+}
+.about {
+    background:  url(../../../assets/images/bg_about.png) no-repeat bottom center;
+    background-size: contain;
+}
+.benefits{
+    background: url(../../../assets/images/benefits_bg1.png) no-repeat 10% 0%, url(../../../assets/images/benefits_bg.png) no-repeat bottom center, url(../../../assets/images/benefits_bg3.png) no-repeat bottom right, url(../../../assets/images/benefits_bg2.png) no-repeat 90% 0% #023f8833;
+    background-size: 50px, 100% auto, auto, 50px ;
+}
+.banefit_block {
+    background: #fff;
+    height: 100%;
+    box-shadow: 0 0 5px 0px #0000003b;
+    min-height: 300px;
+}
+.banefit_block p {
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 500;
+}
+.benefit_heading {
+    color: #023f88;
+}
+.btn_contact {
+    background: #ff0000;
+    color: #fff;
+    padding: 10px 20px;
+    width: 150px;
+    border-radius: 30px;
+}
+.contact_bg {
+    background: url(../../../assets/images/sunburst.png) no-repeat left center #E9E9E9;
+    background-size: cover;
+}
+.contact_right {
+    background: url(../../../assets/images/contact_right_bg.png) no-repeat center right;
+}
+
+.question {
+    background-color: #ffffff;
+    color: #000;
+    position: relative;
+    margin-top: 20px;
+    padding: 9px 0;
+    border-bottom: 1px solid #000;
+}
+.question h4 {
+    margin: 0;
+    padding: 5px 0;
+    font-size: 20px;
+    position: relative;
+    font-weight: 500;
+}
+.answer {
+    margin: 0px;
+    width: 100%;
+}
+.answer p {
+    margin: 0;
+    padding: 10px 0;
+    color: #000;
+}
+.arrow_faq {
+    width: 10px;
+    height: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #000 #000 transparent transparent;
+    transform: rotate(45deg);
+}
+.arrow-active{
+	transform:rotate(90deg);
+}
+@media screen and (max-width:767px) {
+    .about_text {
+        font-size: 18px;
+    }
+}

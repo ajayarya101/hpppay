@@ -1,0 +1,120 @@
+/*.main_header {
+    border-bottom: 1px solid #00baf2;
+}*/
+.footer_wrapper {
+    background: #000032; /* Old browsers */
+    background: -moz-linear-gradient(top,  #000032 0%, #113885 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #000032 0%,#113885 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #000032 0%,#113885 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000032', endColorstr='#113885',GradientType=0 ); /* IE6-9 */   
+    padding: 20px 25px;
+}
+.logo {
+    display: block;
+}
+.logo a {
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+}
+.logo img {
+    max-width: 59px;
+    margin-right: 12px;
+}
+.downloadApp_img img {
+    max-width: 125px;
+}
+.downloadApp_img {
+    padding: 0 7px;
+}
+.footer_nav {
+    padding: 0;
+}
+.footer_nav ul {
+    margin: 0;
+    padding: 10px 0;
+	list-style: none
+}
+.footer_nav ul li {
+    display: inline-block;
+    margin: 0 5px;
+}
+.footer_nav ul li a {
+    display: block;
+    padding: 8px 5px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    position: relative;
+    text-decoration: none;
+}
+.footer_nav ul li.active a {
+    position: relative;
+}
+.footer_nav ul li a:hover {
+    text-decoration: none;
+}
+.footer_nav ul li a:before, .footer_nav ul li a:after {
+    transition: all .2s;
+    width: 0;
+    position: relative;
+}
+.footer_nav ul li a:before {
+    position: absolute;
+    content: '';
+    background: #fff;
+    height: 1px;
+    width: 0;
+    top: 0;
+    left: 0;
+}
+.footer_nav ul li a:after {
+    position: absolute;
+    content: '';
+    background: #fff;
+    height: 1px;
+    width: 0;
+    bottom: 0;
+    right: 0;
+}
+.footer_nav ul li a:hover:before, .footer_nav ul li a:hover:after, .footer_nav ul li.active a:before, .footer_nav ul li.active a:after {
+    width: 100%;
+}
+.footer_text {
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 0;
+    color: #fff;
+}
+.footer_logos a {
+   display: block;
+   padding:0 20px 0 0;
+}
+.footer_logos img {
+    max-height: 75px;
+}
+
+@media screen and (max-width:767px) {
+    .header_wrapper {
+        padding: 20px 0;
+    }
+    .footer_nav {
+        text-align: center;
+    }
+    .footer_download {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .bottom_logo {
+        justify-content: center !important;
+        width: 100%;
+    }
+    .footer_logos img {
+        max-height: 55px;
+    }
+    .footer_nav ul li a {
+        font-size: 12px;
+    }
+}

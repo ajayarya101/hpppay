@@ -8,27 +8,27 @@
                             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                             <img src="assets/images/menu_icon.png" class="img-fluid" alt="">
                         </button>
-                        <a class="navbar-brand header_logo" href="#">
-                            <img src="assets/images/logo.png" alt="">
+                        <a class="navbar-brand header_logo" [routerLink]="['/home']" routerLinkActive="router-link-active" >
+                            <img src="assets/images/logo.png" class="img-fluid" alt="">
                         </a>                       
                     </div>
                     <div class="top_navs">
                         <div class="collapse navbar-collapse" id="navbarNav">
                             <ul class="navbar-nav main_navs">
                                 <li class="nav-item active">
-                                    <a class="nav-link" (click)="toggleNav()" href="#">Home</a>
+                                    <a class="nav-link" (click)="toggleNav()"  [routerLink]="['/home']" routerLinkActive="router-link-active" >Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Program Details</a>
+                                    <a class="nav-link" [routerLink]="['/programDetail']" routerLinkActive="router-link-active" >Program Details</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">FAQs</a>
+                                    <a class="nav-link" [routerLink]="['/faq']" routerLinkActive="router-link-active"  >FAQs</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" [routerLink]="['/registration']" routerLinkActive="router-link-active">Apply Now</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Recharge Account</a>
+                                    <a class="nav-link" [routerLink]="['/recharge']" routerLinkActive="router-link-active" >Recharge Account</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" [routerLink]="['/login']" routerLinkActive="router-link-active" >Login</a>
