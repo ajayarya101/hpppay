@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1638538164053,
+  "timestamp": 1638862583235,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -54,6 +54,7 @@
         "/assets/images/google_icon.png",
         "/assets/images/happiness-hp.png",
         "/assets/images/home_banner.jpg",
+        "/assets/images/home_banner.png",
         "/assets/images/ios-app-link.png",
         "/assets/images/locations_icon.png",
         "/assets/images/login_img.jpg",
@@ -104,6 +105,7 @@
     "/assets/images/google_icon.png": "102e95b5b4ef34bd4ce3e365f5f3ff1e1e86be41",
     "/assets/images/happiness-hp.png": "2afef93b7a8b2232ff972a69246ab5f4453abcf1",
     "/assets/images/home_banner.jpg": "869278aa247f929289eb6cf207124cea79723efa",
+    "/assets/images/home_banner.png": "0ed7d07b8aeecaa2ab8bacb131f473c6104163bb",
     "/assets/images/ios-app-link.png": "b5af920f7bf124985cc23719d9a5eba2641ce595",
     "/assets/images/locations_icon.png": "1690dc3d958703f00ba2db6f9438ca496946257d",
     "/assets/images/login_img.jpg": "2df7fe95423ec97f18aa077e266feb2fc450987b",
